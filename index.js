@@ -2,9 +2,11 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
+const cors = require('cors');
+
 const app = express();
 const port = 9000;
-
+app.use(cors());
 // a660b1e2-aade-4875-a2b6-d5ea2a7fd180
 // hsshoquz
 // balram_job
